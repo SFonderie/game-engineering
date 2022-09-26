@@ -48,13 +48,13 @@ int main()
 			}
 
 			//When the user presses the left mouse button, begin drawing with the brush.
-			if (event.type == sf::Event::MouseButtonPressed && event.mouseButton.button == 0)
+			if (event.type == sf::Event::MouseButtonPressed && event.mouseButton.button == sf::Mouse::Left)
 			{
 				draw = true;
 			}
 
 			//When the user releases the left mouse button, stop drawing with the brush.
-			if (event.type == sf::Event::MouseButtonReleased && event.mouseButton.button == 0)
+			if (event.type == sf::Event::MouseButtonReleased && event.mouseButton.button == sf::Mouse::Left)
 			{
 				draw = false;
 			}
