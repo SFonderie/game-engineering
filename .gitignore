@@ -5,6 +5,7 @@ SFML-2.5.1/*
 */.vs
 */Build
 */Debug
+*/Release
 
 # Project Files
 *.sln
